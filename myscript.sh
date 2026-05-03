@@ -16,7 +16,7 @@ pwd
 mkdir -p ~/Desktop/Backup_$(date +%Y%m%d)
 
 # Copy all files from Documents into the backup folder
-cp -r ~/Documents/* ~/Desktop/Backup_$(date +%Y%m%d)/
+cp -r ~/Documents/TheoWAF ~/Desktop/Backup_$(date +%Y%m%d)/
 
 # List what was copied
 echo "Files backed up:"
